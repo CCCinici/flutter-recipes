@@ -1,16 +1,37 @@
-# max_mealapp
+# Basit Yemek Tarifleri Uygulaması
 
-A new Flutter application.
+Yemek tarifleri mobil uygulaması. Tarifler gömülü ve basitleştirilmiş.
 
-## Getting Started
+## Dil ve Fontlar
 
-This project is a starting point for a Flutter application.
+Flutter ve Dart dili kullanılarak yazıldı. Herhangi bir uygulama mağazasında yayınlanmadı.
+Fontlar ise; Roboto ve Raleway
 
-A few resources to get you started if this is your first Flutter project:
+### Çalıştırılmadan önce tekrar render edilmeli.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Uygulama yapısı
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Yine yarı İngilizce/Türkçe yapısına sahip.
+-Tarifleri internetten değil, içerisinde "gömülü" olarak gelmekte.
+-Daha çok StateFul yapısı kullanıldı.
+-OOP ve MVC yapısına uygun ilerlenildi.
+-Anasayfa'da Grid yapısı ile başlıklar eklendi, Drawer ile menü eklendi.
+-Bottombar kısmında ise kategoriler(Anasayfa) ve favoriler kısmı eklendi.
+-Drawer kısmından filtreleme yapılarak, vejeteryan, vegan, laktozsuz ve glutensiz olarak filtreleme yapılabiliyor.
+-Gridlerden seçilen başlıklarla ilerleyerek, tarife ait fotoğraf, zorluk derecesi, yapım süresi, ve maliyet bilgisi eklendi,
+-Seçilen tariflerle ise içindekiler ve kademe kademe yapması gerekenler şeklinde eklendi.
+
+
+
+<table>
+  <tr>
+    <th><img src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/1.jpg" data-canonical-src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/1.jpg" width="200" height="400" /></th>
+   <th> <img src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/2.jpg" data-canonical-src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/2.jpg" width="200" height="400" /></th>
+   <th> <img src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/3.jpg" data-canonical-src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/3.jpg" width="200" height="400" /></th>
+  <tr>
+  <th>  <img src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/4.jpg" data-canonical-src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/4.jpg" width="200" height="400" /></th>
+  <th>  <img src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/5.jpg" data-canonical-src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/5.jpg" width="200" height="400" /></th>
+  <th>  <img src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/6.jpg" data-canonical-src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/6.jpg" width="200" height="400" /></th>
+  <th>  <img src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/7.jpg" data-canonical-src="https://github.com/CCCinici/flutter-recipes/blob/main/ss/7.jpg" width="200" height="400" /></th>
+  </tr>
+</table>
